@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="text/javascript" src="/script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="border">
+        <a href="http://localhost:5500/index.html" class="link"
+          ><div class="button link home">
+            <img src="home.png" alt="error" class="img-home" /></div
+        ></a>
+        <div class="button active calculator">Calculator</div>
+      </div>
+      <div id="calc-body" class="calc-body">
+        <div id="result" class="calc-result">0</div>
+
+        <div>
+          <button id="btn_op_clear" class="button extra">C</button>
+          <button id="btn_op_sign" class="button extra">+/-</button>
+          <button id="btn_op_percent" class="button extra">%</button>
+          <button id="btn_op_div" class="button operations">/</button>
+        </div>
+        <div>
+          <button id="btn_digit_7" class="button numbers">7</button>
+          <button id="btn_digit_8" class="button numbers">8</button>
+          <button id="btn_digit_9" class="button numbers">9</button>
+          <button id="btn_op_mult" class="button operations">x</button>
+        </div>
+        <div>
+          <button id="btn_digit_4" class="button numbers">4</button>
+          <button id="btn_digit_5" class="button numbers">5</button>
+          <button id="btn_digit_6" class="button numbers">6</button>
+          <button id="btn_op_minus" class="button operations">-</button>
+        </div>
+        <div>
+          <button id="btn_digit_1" class="button numbers">1</button>
+          <button id="btn_digit_2" class="button numbers">2</button>
+          <button id="btn_digit_3" class="button numbers">3</button>
+          <button id="btn_op_plus" class="button operations">+</button>
+        </div>
+        <div>
+          <button id="btn_digit_0" class="button numbers">0</button>
+          <button id="btn_digit_dot" class="button numbers">.</button>
+          <button id="btn_op_equal" class="button result">=</button>
+        </div>
+      </div>
+      <div class="quoter calculator"></div>
+    </div>
+  </body>
+</html>
